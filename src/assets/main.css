@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap');
+
+:root {
+  --green-color:rgb(0, 255, 177);
+  --bg-color:rgb(245, 245, 245);
+  --text-color:black;
+}
+
+#app {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+
+  font-family: 'Unbounded', 'Courier New', Courier, monospace;
+  /* font-family: 'Space Mono', monospace; */
+  font-weight: normal;
+  /* line-height: 1; */
+}
+p, h1, h2, h3{
+  margin: 0;
+}

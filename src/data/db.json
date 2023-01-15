@@ -1,0 +1,66 @@
+{
+  "topRow":[
+    {
+      "id": 1,
+      "title": "Gobi",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/treti_milenium_front.jpg",
+          "/images/treti_milenium_back.jpg"
+        ]
+      },
+      "detailImages": [],
+      "curentlyPrinting": true,
+      "price": 450
+    },
+    {
+      "id": 2,
+      "title": "Tiché jaro",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/pestilence_front.jpg",
+          "/images/pestilence_back.jpg"
+        ]
+      },
+      "detailImages": [
+        "/images/pestilence_detail.jpg"
+      ],
+      "curentlyPrinting": true,
+      "price": 450
+    },
+    {
+      "id": 3,
+      "title": "Bias",
+      "stock": null,
+      "images":{
+        "s":[
+          "/images/logo_front_s.jpg",
+          "/images/logo_back_s.jpg"
+        ],
+        "m":[
+          "/images/logo_front.jpg",
+          "/images/logo_back.jpg"
+        ]
+      },
+      "detailImages": [],
+      "curentlyPrinting": true,
+      "price": 450
+    },
+    {
+      "id": 4,
+      "title": "Tři hlavy",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/tri_hlavy_front.jpg",
+          "/images/tri_hlavy_back.jpg"
+        ]
+      },
+      "detailImages": [],
+      "curentlyPrinting": true,
+      "price": 450
+    }
+  ]
+}
