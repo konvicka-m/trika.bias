@@ -6,11 +6,11 @@
     <ul>
       <li class="container">
         <h1>S chybou počítáme</h1>
-        <p>Děláme autorské trika u sebe doma. Nejsme tiskárna s profi vybavením. Chyba je pro nas nedílnou součástí tvorby. Prostě s ní počítáme. Jestli hledáš dokonale potištěné triko jsi tu špatně.</p>
+        <p>Děláme autorské trika u sebe doma. Nejsme tiskárna s profi vybavením. Chyba je pro nas nedílnou součástí tvorby. Prostě s ní počítáme. Jestli hledáš dokonale potištěné triko, jsi tu špatně.</p>
       </li>
       <li class="container">
         <h1>Jestli dostaneš triko na druhý den není jisté</h1>
-        <p>Trika tisknem ve volném čase. Neboj nebudeš čekat měsíc, ale do druhého dne to rozhodně nebude.</p>
+        <p>Trika tisknem ve volném čase. Neboj, nebudeš čekat měsíc, ale do druhého dne to rozhodně nebude.</p>
       </li>
       <li class="container">
         <h1>Per trika maximálně na 40, jinak ti z potisku zbyde jenom vzpomínka</h1>
@@ -18,7 +18,7 @@
       </li>
       <li class="container">
         <h1>Nejsme vždycky eco, bio, green, vege, ale pracujem na tom</h1>
-        <p>Používáme barvy od Daler Rowney. Barvy jsou vodouředitelné bez rozpoštědel.</p>
+        <p>Používáme barvy od Daler Rowney. Barvy jsou vodouředitelné bez rozpouštědel.</p>
       </li>
     </ul>
   </div>

@@ -58,7 +58,8 @@ ul {
 ul p{
   color: black;
 }
-ul p:hover{
+ul p:hover,
+ul p :active{
   color: var(--green-color);
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }

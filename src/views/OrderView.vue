@@ -2,7 +2,7 @@
     <div class="order-page">
 
       <section class="section-text">
-        <p>Momentálně příjmáme objednávky prostřednictvím emailiu. Napiš nám na adresu
+        <p>Momentálně příjmáme objednávky prostřednictvím emailu. Napiš nám na adresu
           <a href="mailto:trika.bias@gmail.com"> trika.bias@gmail.com </a> jaký motiv a jakou barvu trička chceš (aktuálně nabízíme bílou, šedou a černou) a my na tom začnem pracovat. Taky nám nezapomeň napsat adresu, triko ti na ní zašleme dobírkou.</p>
         <!-- <p>Nebo nás kontaktuj prostřednictvím formuláře níže.</p> -->
       </section>
