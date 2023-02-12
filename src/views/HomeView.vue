@@ -33,9 +33,11 @@
 <script>
   import ProductCard from '../components/ProductCard.vue'
   import ProductData from '../data/db.json'
+  import Card from '../components/Card.vue'
   export default{
     components: {
-      ProductCard
+      ProductCard,
+      Card
     },
     data() {
     return {
@@ -52,7 +54,7 @@
 }
 .row{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: .5rem;
 }
 a{

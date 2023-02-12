@@ -2,36 +2,109 @@
   "topRow":[
     {
       "id": 1,
+      "title": "01:00 a. m.",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/Kyklop_front.jpg",
+          "/images/Kyklop_back.jpg"
+        ]
+      },
+      "detailImages": [
+        "/images/Kyklop_front_detail.jpg"
+      ],
+      "curentlyPrinting": true,
+      "price": 520
+    },
+    {
+      "id": 2,
+      "title": "01:00 a. m.",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/01_00_am_front.jpg",
+          "/images/01_00_am_back.jpg"
+        ]
+      },
+      "detailImages": [
+        "/images/01_00_am_detail.jpg",
+        "/images/01_00_am_text.jpg"
+      ],
+      "curentlyPrinting": true,
+      "price": 520
+    },
+    {
+      "id": 3,
+      "title": "Kočičák",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/Kocicak_front.jpg",
+          "/images/Kocicak_back.jpg"
+        ]
+      },
+      "detailImages": [
+        "/images/Kocicak_detail.jpg",
+        "/images/Kocicak_text.jpg"
+      ],
+      "curentlyPrinting": true,
+      "price": 520
+    },
+    {
+      "id": 4,
       "title": "Gobi",
       "stock": null,
       "images":{
         "m":[
-          "/images/treti_milenium_front.jpg",
-          "/images/treti_milenium_back.jpg"
+          "/images/Gobi_front.jpg",
+          "/images/Gobi_back.jpg"
         ]
       },
-      "detailImages": [],
+      "detailImages": [
+        "/images/Gobi_front_detail.jpg",
+        "/images/Gobi_back_detail.jpg",
+        "/images/Gobi_text_detail.jpg"
+      ],
       "curentlyPrinting": true,
-      "price": 450
+      "price": 520
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "Tiché jaro",
       "stock": null,
       "images":{
         "m":[
-          "/images/pestilence_front.jpg",
-          "/images/pestilence_back.jpg"
+          "/images/Tiche_jaro_front.jpg",
+          "/images/Tiche_jaro_back.jpg"
         ]
       },
       "detailImages": [
-        "/images/pestilence_detail.jpg"
+        "/images/Tiche_jaro_front_detail.jpg",
+        "/images/Tiche_jaro_back_detail.jpg",
+        "/images/Tiche_jaro_text_detail.jpg"
       ],
       "curentlyPrinting": true,
-      "price": 450
+      "price": 520
     },
     {
-      "id": 3,
+      "id": 6,
+      "title": "Tubular PuffPuff",
+      "stock": null,
+      "images":{
+        "m":[
+          "/images/Tri_hlavy_front.jpg",
+          "/images/Tri_hlavy_back.jpg"
+        ]
+      },
+      "detailImages": [
+        "/images/Tri_hlavy_front_detail.jpg",
+        "/images/Tri_hlavy_back_detail.jpg"
+      ],
+      "curentlyPrinting": true,
+      "price": 520
+    },
+    {
+      "id": 7,
       "title": "Bias",
       "stock": null,
       "images":{
@@ -46,21 +119,7 @@
       },
       "detailImages": [],
       "curentlyPrinting": true,
-      "price": 450
-    },
-    {
-      "id": 4,
-      "title": "Tři hlavy",
-      "stock": null,
-      "images":{
-        "m":[
-          "/images/tri_hlavy_front.jpg",
-          "/images/tri_hlavy_back.jpg"
-        ]
-      },
-      "detailImages": [],
-      "curentlyPrinting": true,
-      "price": 450
+      "price": 520
     }
   ]
 }

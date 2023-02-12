@@ -24,6 +24,7 @@
         </figure>
         <div class="container">
             <h2>{{title}}</h2>
+            <p v-if="text">{{ text }}</p>
             <p v-if="stock">skladem: {{ stock }}</p> 
             <!-- <p>{{this.num}}</p> -->
             <!-- SMAZAT -->
@@ -57,6 +58,7 @@
                 type: Boolean
             },
             stock: '',
+            text: " ",
         },
         methods: {
             switchImg() {

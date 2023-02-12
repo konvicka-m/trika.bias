@@ -1,12 +1,12 @@
 <template>
   <div class="about-page">
 
-    <h1 class="uvodni-text">Hele, naše trika jsou <strong>bastl</strong>. Počítej s tím. Dole máš par bodů, abys věděl co kupuješ.</h1>
+    <h1 class="uvodni-text">Hele, naše trika jsou <strong>bastl</strong>. Počítej s tím. Dole máš par bodů, abys věděl, co kupuješ.</h1>
 
     <ul>
       <li class="container">
         <h1>S chybou počítáme</h1>
-        <p>Děláme autorské trika u sebe doma. Nejsme tiskárna s profi vybavením. Chyba je pro nas nedílnou součástí tvorby. Prostě s ní počítáme. Jestli hledáš dokonale potištěné triko, jsi tu špatně.</p>
+        <p>Děláme autorská trika u sebe doma. Nejsme tiskárna s profi vybavením. Chyba je pro nás nedílnou součástí tvorby. Prostě s ní počítáme. Jestli hledáš dokonale potištěné triko, jsi tu špatně.</p>
       </li>
       <li class="container">
         <h1>Jestli dostaneš triko na druhý den není jisté</h1>
