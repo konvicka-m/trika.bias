@@ -47,9 +47,13 @@ export default{
     /* max-width: 75ch; */
   }
   .section-text{
+    color: rgb(212, 212, 212);
     margin-bottom: 3rem;
     font-size: large;
     font-style: italic;
+  }
+  a{
+    color: #1F51FF;
   }
   .contact-form{
     display: flex;
@@ -80,7 +84,7 @@ export default{
   .contact-form button{
     height: 2rem;
     width: 10ch;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(216, 216, 216);
     border: none;
     /* box-shadow: .2rem .2rem .3rem rgba(0, 0, 0, 0.1); */
 

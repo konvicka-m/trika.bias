@@ -78,6 +78,7 @@
     margin: 0 25vw;
 }
 .title{
+    color: springgreen;
     font-size: 3rem;
     position: absolute;
     bottom: 0;
@@ -95,8 +96,7 @@
     transform: rotate(90deg) translateX(80%);
 }
 .printing{
-    color: var(--green-color);
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: springgreen;
 }
 .not-printing{
     color: grey;
@@ -104,6 +104,7 @@
     margin-top: 1rem;
 }
 .price{
+    color: white;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -111,12 +112,14 @@
     transform: rotate(90deg) translate(-5%);
 }
 .buttons{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
 }
 button{
+    color: white;
     font-size: 1.2rem;
 
     background: none;
@@ -125,9 +128,10 @@ button{
 button:hover{
     cursor: pointer;
     /* background-color: rgba(0, 0, 0, 0.313); */
-    background-color: var(--green-color);
+    background-color: white;
+    color: black;
     /* box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
-    border-radius: .6rem;
+    border-radius: 2rem;
 }
 .image-slide{
     width: 100%;

@@ -81,6 +81,9 @@
 </script>
 
 <style scoped>
+    .card{
+        border: solid 1px grey;
+    }
     figure{
         height: 50vh;
         margin: 0;
@@ -107,8 +110,10 @@
         width: 100%;
         height: 100%;
 
+        /* margin: 1rem; */
+
         /* border: dashed red .1rem; */
-        box-shadow: .4rem .4rem .6rem rgba(0, 0, 0, 0.2);
+        /* box-shadow: .4rem .4rem .6rem rgba(0, 0, 0, 0.2); */
 
         /* background-image: url("src/assets/images/2792px-The_Forest_Stream_MET_DP146457.jpg"); */
         background-position: center;

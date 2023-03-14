@@ -1,6 +1,12 @@
 <template>
   <div class="content">
   <header>
+    <section class="icons">
+      <div class="icon-container">
+      </div>
+      <p style="letter-spacing:10vw; margin-left: 10vw; font-weight:600;">trika bias</p>
+    </section>
+
     <div class="wrapper">
       <NavBar></NavBar>
     </div>
@@ -11,15 +17,15 @@
   </main>
 
   <footer>
-    <img class="footer-img" src="./components/icons/robot.svg" alt="robot">
+    <!-- <img class="footer-img" src="./components/icons/robot.svg" alt="robot"> -->
     <ul class="footer-list">
       <li>
-        <img src="./components/icons/ikona_email_1.svg" alt="email icon" width="25">
+        <!-- <img src="./components/icons/ikona_email_1.svg" alt="email icon" width="25"> -->
         <!-- <p>objednavky@trikabias.cz</p> -->
         <a href="mailto:trika.bias@gmail.com"> trika.bias@gmail.com </a> 
       </li>
       <li>
-        <img src="./components/icons/ikona_instagram_1.svg" alt="instagram icon" width="25">
+        <!-- <img src="./components/icons/ikona_instagram_1.svg" alt="instagram icon" width="25"> -->
         <a href="https://www.instagram.com/trika.bias/">trika.bias</a>
       </li>
     </ul>
@@ -42,18 +48,48 @@ export default{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+  background-color: rgb(24 24 27);
 }
 header {
+  color: white;
+  /* background-color: aqua; */
   padding: 1rem;
+  padding-bottom: 0px;
+  margin-bottom: 46px;
+  border-bottom: solid 2px black;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  text-align: center;
+  margin: 5rem 0;
+}
+.icon-container{
+  width: 320px;
+  height: 78px;
+
+  margin: .5rem auto;
+
+  background-image: url(/src/components/icons/samolepka_1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon-container:hover{
+  background-image: url(/src/components/icons/samolepka_1_hover.svg);
 }
 main{
   margin-bottom: 120px;
+  background-color: rgb(24 24 27);
 }
 footer{
   position: relative;
 
-  background-color: var(--green-color);
+  background-color: black;
   color: rgb(255, 255, 255);
 
   font-size: smaller;

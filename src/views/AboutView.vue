@@ -29,31 +29,34 @@
 .about-page{
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 3rem;
   padding: 0rem 3rem;
   /* max-width: 75ch; */
 }
 .uvodni-text{
-  font-size: large;
+  color: violet;
+  font-size: x-large;
   font-style: italic;
   margin-bottom: 3rem;
 }
 ul{
   padding-left:0 ;
+  list-style: none;
 }
 .container{
   margin-bottom: 1rem;
-  border-top: 0.2rem solid black;
+  border-top: 0.2rem solid violet;
   /* border-top: 0.2rem solid rgb(0, 253, 164); */
 }
 h1{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size:x-large;
 }
 p{
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-size: large;
-  color: rgb(50, 50, 50);
+  color: rgb(212, 212, 212);
   line-height: 1.2;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <nav>
     <ul>
-      <li>    
+      <!-- <li>    
         <img class="home" src="./icons/obr.svg" alt="" width="100">
-      </li>
+      </li> -->
 
       <li>
         <RouterLink to="/">
@@ -56,12 +56,12 @@ ul {
   margin-top: 0rem;
 }
 ul p{
-  color: black;
+  color: white
 }
 ul p:hover,
-ul p :active{
-  color: var(--green-color);
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+ul p:active{
+  /* color: var(--green-color); */
+  color: springgreen;
 }
 
 /* RESPONSIVE */

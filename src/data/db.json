@@ -2,7 +2,7 @@
   "topRow":[
     {
       "id": 1,
-      "title": "01:00 a. m.",
+      "title": "Kyklop",
       "stock": null,
       "images":{
         "m":[
@@ -92,8 +92,8 @@
       "stock": null,
       "images":{
         "m":[
-          "/images/Tri_hlavy_front.jpg",
-          "/images/Tri_hlavy_back.jpg"
+          "/images/Tri_hlavy_back.jpg",
+          "/images/Tri_hlavy_front.jpg"
         ]
       },
       "detailImages": [

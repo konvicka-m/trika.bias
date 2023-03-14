@@ -5,20 +5,28 @@
         v-for="(product, index) in this.products.topRow "
         :key="index"
         :to="{ name: 'detail', params: {id: product.id} }">
+        <TshirtCard
+          :tshirt="product"
+        ></TshirtCard>
+      </RouterLink>
+
+      <!-- <RouterLink
+        v-for="(product, index) in this.products.topRow "
+        :key="index"
+        :to="{ name: 'detail', params: {id: product.id} }">
         <ProductCard
           :title="product.title"
           :imgSources="product.images.m"
           :curentlyPrinting="product.curentlyPrinting"
-          :stock="product.stock"
-        ></ProductCard>
-      </RouterLink>
+        ></productCard>
+      </RouterLink> -->
     </section>
 
-    <section class="icons">
+    <!-- <section class="icons">
       <div class="icon-container">
       </div>
       <p style="letter-spacing:10vw; margin-left: 10vw; font-weight:600;">trika bias</p>
-    </section>
+    </section> -->
 
     <!-- <section class="row-full-width">
       <ProductCard
@@ -34,10 +42,12 @@
   import ProductCard from '../components/ProductCard.vue'
   import ProductData from '../data/db.json'
   import Card from '../components/Card.vue'
+  import TshirtCard from '../components/TshirtCard.vue'
   export default{
     components: {
       ProductCard,
-      Card
+      Card,
+      TshirtCard,
     },
     data() {
     return {
@@ -55,13 +65,13 @@
 .row{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: .5rem;
+  gap: .25rem;
 }
 a{
   color: black;
   text-decoration: none;
 }
-.icons{
+/* .icons{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,14 +93,18 @@ a{
 }
 .icon-container:hover{
   background-image: url(/src/components/icons/samolepka_1_hover.svg);
-}
+} */
 
 @media screen and (max-width: 750px){
   .row {
     display: block;
   }
-  .row-item{
-    margin: 0 3rem;
+}
+
+@media screen and (max-width: 1000px){
+  .row {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
   }
 }
 </style>
